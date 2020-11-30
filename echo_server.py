@@ -6,7 +6,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #สร้าง socket
 
 # Bind the socket to the port
 server_address = ('localhost', 8002) #กำหนดที่อยู่ server และ port ไว้ที่ตัวแปร server_address
-print('starting up on %s port %s' % server_address)
+print('Server starting up on %s port %s' % server_address)
 sock.bind(server_address) #ผูก socket ไว้กับ server , port
 sock.listen(1) #รับการเชื่อมต่อสูงสุดแค่ 1 connect
 
