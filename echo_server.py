@@ -24,5 +24,7 @@ while True:
                 server_wait = False
 
     finally:
+        
         # Clean up the connection
+        # testtttttttttttttttttttttttttttttt
         connection.close() #ปิดการเชื่อมต่อ
